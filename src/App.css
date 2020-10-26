@@ -1,0 +1,48 @@
+html, body, #root{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td{
+    border: solid 1px #ccc;
+    padding: 10px 15px;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    background-color: #07a;
+    color: #fff;
+    border-radius: 3px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button.red{
+    background-color: #a00;
+}
+
+button.grey{
+    background-color: #ccc;
+    color:#888;
+}
+
+input{
+    padding: 10px;
+}
